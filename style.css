@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ div p{
+    line-height: 1.6;
+}
+.botam{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    transition: border-left 700ms ease-out, border-rigth 1000ms ease-in, border-top 500ms ease-in-out;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.botam:hover{
+    border: 3px solid darkcyan;
+}
+div{
+    margin-top: 40px;
+}
+p:nth-child(2n-1){
+    color: darkcyan;
+}
